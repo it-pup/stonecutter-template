@@ -1,4 +1,4 @@
-package io.github.umoshii.template
+package pet.itpuppy.template
 
 import net.fabricmc.api.ModInitializer
 import net.minecraft.resources.Identifier

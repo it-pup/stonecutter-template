@@ -1,4 +1,4 @@
-package io.github.umoshii.template.mixin;
+package pet.itpuppy.template.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

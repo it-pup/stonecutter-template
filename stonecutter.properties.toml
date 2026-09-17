@@ -1,4 +1,4 @@
-mod.group   = "io.github.umoshii.template"
+mod.group   = "pet.itpuppy.template"
 mod.id      = "template"
 mod.version = "0.0.1"
 

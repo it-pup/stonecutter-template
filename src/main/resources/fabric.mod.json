@@ -6,12 +6,12 @@
 	"description": "${mod_desc}",
 
 	"authors": [
-		"Me!"
+		"itpuppy"
 	],
 
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://itpuppy.pet/",
+		"sources": "https://github.com/it-pup/"
 	},
 
 	"license": "Apache-2.0",
@@ -21,7 +21,7 @@
 	"entrypoints": {
 		"main": [
 			{
-				"value": "io.github.umoshii.template.Template",
+				"value": "pet.itpuppy.template.Template",
 				"adapter": "kotlin"
 			}
 		]
