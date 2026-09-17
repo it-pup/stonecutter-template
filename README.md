@@ -10,7 +10,7 @@ wuff
 
 ### overview
 simple kotlin fabric stonecutter multiversion mod template with support for versions after 26.1.2\
-currently supporting: `26.1.2` and `26.2`, with vcs-version set to `26.2`\
+currently supporting: `26.1.2`, `26.2` and `26.3`, with vcs-version set to `26.3`\
 includes dev-auth by default
 
 ### what to do next?
@@ -28,4 +28,4 @@ includes dev-auth by default
 
 #
 
-<p align="center">by autumn/umoshi 🐾</p>
+<p align="center">by autumn/itpuppy 🐾</p>
