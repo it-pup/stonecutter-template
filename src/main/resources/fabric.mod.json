@@ -1,42 +1,42 @@
 {
-	"schemaVersion": 1,
-	"id": "${mod_id}",
-	"version": "${mod_version}",
-	"name": "${mod_name}",
-	"description": "${mod_desc}",
+    "schemaVersion": 1,
+    "id": "${mod_id}",
+    "version": "${mod_version}",
+    "name": "${mod_name}",
+    "description": "${mod_desc}",
 
-	"authors": [
-		"itpuppy"
-	],
+    "authors": [
+        "itpuppy"
+    ],
 
-	"contact": {
-		"homepage": "https://itpuppy.pet/",
-		"sources": "https://github.com/it-pup/"
-	},
+    "contact": {
+        "homepage": "https://itpuppy.pet/",
+        "sources": "https://github.com/it-pup/"
+    },
 
-	"license": "Apache-2.0",
-	"icon": "assets/template/icon.png",
-	"environment": "*",
+    "license": "Apache-2.0",
+    "icon": "assets/template/icon.png",
+    "environment": "*",
 
-	"entrypoints": {
-		"main": [
-			{
-				"value": "pet.itpuppy.template.Template",
-				"adapter": "kotlin"
-			}
-		]
-	},
+    "entrypoints": {
+        "main": [
+            {
+                "value": "pet.itpuppy.template.Template",
+                "adapter": "kotlin"
+            }
+        ]
+    },
 
-	"mixins": [
-		"template.mixins.json"
-	],
+    "mixins": [
+        "template.mixins.json"
+    ],
 
-	"depends": {
-		"minecraft": "${mod_mc_compat}",
-		"fabricloader": ">=0.19.3",
-		"java": ">=25",
+    "depends": {
+        "minecraft": "${mod_mc_compat}",
+        "fabricloader": ">=0.19.3",
+        "java": ">=25",
 
-		"fabric-api": "*",
-		"fabric-language-kotlin": "*"
-	}
+        "fabric-api": "*",
+        "fabric-language-kotlin": "*"
+    }
 }
